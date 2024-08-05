@@ -1,0 +1,125 @@
+.movies-page {
+  padding: 20px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-bar-button {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.top-bar-button:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.find-movie {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  border: 1px solid #e2e8f0;
+  padding: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  flex: 1 1 300px;
+  min-width: 200px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.movie-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1a202c;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.movie-genres {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #718096;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.subscriptions-watched {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.subscriptions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subscription-item {
+  display: flex;
+  align-items: center;
+}
+
+.movie-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.subscription-name {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.subscription-name:hover {
+  text-decoration: underline;
+}
+
+.movie-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.top-bar-button.active {
+  background-color: #4f46e5;
+  color: white;
+}

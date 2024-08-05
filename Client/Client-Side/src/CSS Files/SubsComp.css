@@ -1,0 +1,116 @@
+/* Container styles */
+.subs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+.subs-container h1,
+.subs-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Subscriber card styles */
+.subscriber-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.subscriber-card h1 {
+  margin-top: 0;
+}
+
+.subscriber-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Watched Movies section */
+.subscriber-card h4 {
+  margin: 10px 0;
+}
+
+.subscriber-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.subscriber-card li {
+  margin-bottom: 5px;
+}
+
+.subscriber-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.subscriber-card a:hover {
+  text-decoration: underline;
+}
+
+.subscriber-card .no-movies {
+  color: #999;
+}
+
+/* Buttons */
+.subs-container button {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subs-delete-button {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subs-delete-button:hover {
+  background-color: #e53e3e;
+  color: white;
+}
+
+/* Select and Input styles */
+.subs-container select,
+.subs-container input[type="date"] {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.subs-container select {
+  width: 200px;
+}
+
+.subs-container input[type="date"] {
+  width: 150px;
+}
+
+/* Active button */
+.subs-container .active-button {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.subs-container .active-button:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.subs-container .add-movie-div {
+  display: none;
+}
